@@ -98,7 +98,7 @@ void APA102::show(void)
         put_rgb888(pixelPio, pixelSm, redPtr, greenPtr, bluePtr);
     };
     put_end_frame(pixelPio, pixelSm);
-    sleep_ms(10);
+    sleep_ms(1);
 
     //sleep_ms(1); // Data is latched by holding clock pin low for 1 millisecond
 }
